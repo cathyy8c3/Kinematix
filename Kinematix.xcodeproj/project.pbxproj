@@ -15,6 +15,10 @@
 		4CFCDF8524BD257A0041DA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFCDF8324BD257A0041DA20 /* LaunchScreen.storyboard */; };
 		4CFCDF9024BD257A0041DA20 /* KinematixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDF8F24BD257A0041DA20 /* KinematixTests.swift */; };
 		4CFCDF9B24BD257A0041DA20 /* KinematixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDF9A24BD257A0041DA20 /* KinematixUITests.swift */; };
+		4CFCDFA924BD27400041DA20 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFA824BD27400041DA20 /* Position.swift */; };
+		4CFCDFAB24BD27490041DA20 /* Velocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAA24BD27490041DA20 /* Velocity.swift */; };
+		4CFCDFAD24BD27510041DA20 /* Acceleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAC24BD27510041DA20 /* Acceleration.swift */; };
+		4CFCDFB024BD28D20041DA20 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAF24BD28D20041DA20 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		4CFCDF9624BD257A0041DA20 /* KinematixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinematixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFCDF9A24BD257A0041DA20 /* KinematixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematixUITests.swift; sourceTree = "<group>"; };
 		4CFCDF9C24BD257A0041DA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CFCDFA824BD27400041DA20 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		4CFCDFAA24BD27490041DA20 /* Velocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocity.swift; sourceTree = "<group>"; };
+		4CFCDFAC24BD27510041DA20 /* Acceleration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acceleration.swift; sourceTree = "<group>"; };
+		4CFCDFAF24BD28D20041DA20 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 				4CFCDF7824BD25790041DA20 /* AppDelegate.swift */,
 				4CFCDF7A24BD25790041DA20 /* SceneDelegate.swift */,
 				4CFCDF7C24BD25790041DA20 /* ContentView.swift */,
+				4CFCDFAF24BD28D20041DA20 /* MainView.swift */,
+				4CFCDFAE24BD275C0041DA20 /* Pages */,
 				4CFCDF7E24BD257A0041DA20 /* Assets.xcassets */,
 				4CFCDF8324BD257A0041DA20 /* LaunchScreen.storyboard */,
 				4CFCDF8624BD257A0041DA20 /* Info.plist */,
@@ -134,6 +144,16 @@
 				4CFCDF9C24BD257A0041DA20 /* Info.plist */,
 			);
 			path = KinematixUITests;
+			sourceTree = "<group>";
+		};
+		4CFCDFAE24BD275C0041DA20 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCDFA824BD27400041DA20 /* Position.swift */,
+				4CFCDFAA24BD27490041DA20 /* Velocity.swift */,
+				4CFCDFAC24BD27510041DA20 /* Acceleration.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CFCDF7924BD25790041DA20 /* AppDelegate.swift in Sources */,
+				4CFCDFB024BD28D20041DA20 /* MainView.swift in Sources */,
+				4CFCDFAD24BD27510041DA20 /* Acceleration.swift in Sources */,
 				4CFCDF7B24BD25790041DA20 /* SceneDelegate.swift in Sources */,
+				4CFCDFA924BD27400041DA20 /* Position.swift in Sources */,
+				4CFCDFAB24BD27490041DA20 /* Velocity.swift in Sources */,
 				4CFCDF7D24BD25790041DA20 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
