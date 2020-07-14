@@ -8,13 +8,12 @@
 
 import SwiftUI
 import CoreMotion
+import SwiftUICharts
 
 struct Acceleration: View {
     var body: some View {
         NavigationView {
-            VStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            }
+            accGraph()
             .navigationBarTitle(Text("Acceleration"))
         }
     }

@@ -9,22 +9,33 @@
 import SwiftUI
 
 struct MainView: View {
+    @EnvironmentObject var start:Bools
+    
     var body: some View {
-        TabView {
-            Position().tabItem({
-                Image(systemName: "xmark")
-                Text("Position")
-            })
-            
-            Velocity().tabItem({
-                Image(systemName: "chevron.right")
-                Text("Velocity")
-            })
-            
-            Acceleration().tabItem({
-                Image(systemName: "chevron.right.2")
-                Text("Acceleration")
-            })
+        NavigationView {
+            TabView {
+                Position().tabItem({
+                    Image(systemName: "xmark")
+                    Text("Position")
+                })
+                
+                Velocity().tabItem({
+                    Image(systemName: "chevron.right")
+                    Text("Velocity")
+                })
+                
+                Acceleration().tabItem({
+                    Image(systemName: "chevron.right.2")
+                    Text("Acceleration")
+                })
+            }
+            .navigationBarItems(leading:
+                HStack{
+                    Button("Start") {
+                        self.start.setBool(bool: !self.start.b)
+                    }
+                }
+            )
         }
     }
 }
