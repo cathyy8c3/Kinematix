@@ -19,6 +19,7 @@
 		4CFCDFAB24BD27490041DA20 /* Velocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAA24BD27490041DA20 /* Velocity.swift */; };
 		4CFCDFAD24BD27510041DA20 /* Acceleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAC24BD27510041DA20 /* Acceleration.swift */; };
 		4CFCDFB024BD28D20041DA20 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFAF24BD28D20041DA20 /* MainView.swift */; };
+		4CFCDFB224BD2FAB0041DA20 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCDFB124BD2FAB0041DA20 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4CFCDFAA24BD27490041DA20 /* Velocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocity.swift; sourceTree = "<group>"; };
 		4CFCDFAC24BD27510041DA20 /* Acceleration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acceleration.swift; sourceTree = "<group>"; };
 		4CFCDFAF24BD28D20041DA20 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4CFCDFB124BD2FAB0041DA20 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				4CFCDF7A24BD25790041DA20 /* SceneDelegate.swift */,
 				4CFCDF7C24BD25790041DA20 /* ContentView.swift */,
 				4CFCDFAF24BD28D20041DA20 /* MainView.swift */,
+				4CFCDFB324BD2FB70041DA20 /* Templates */,
 				4CFCDFAE24BD275C0041DA20 /* Pages */,
 				4CFCDF7E24BD257A0041DA20 /* Assets.xcassets */,
 				4CFCDF8324BD257A0041DA20 /* LaunchScreen.storyboard */,
@@ -154,6 +157,14 @@
 				4CFCDFAC24BD27510041DA20 /* Acceleration.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		4CFCDFB324BD2FB70041DA20 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCDFB124BD2FAB0041DA20 /* Data.swift */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				4CFCDFA924BD27400041DA20 /* Position.swift in Sources */,
 				4CFCDFAB24BD27490041DA20 /* Velocity.swift in Sources */,
 				4CFCDF7D24BD25790041DA20 /* ContentView.swift in Sources */,
+				4CFCDFB224BD2FAB0041DA20 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
